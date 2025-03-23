@@ -22,8 +22,8 @@ A Node.js bot that forwards Instagram Direct Messages to Discord channels, prese
 
 1. Clone this repository
    ```
-   git clone https://github.com/yourusername/instagram-dm-discord-bot.git
-   cd instagram-dm-discord-bot
+   git clone https://github.com/Kp4103/insta2dc.git
+   cd insta2dc
    ```
 
 2. Install dependencies
