@@ -1,14 +1,34 @@
 {
-  "name": "insta2dc",
+  "name": "instagram-dm-discord-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "instagram",
+    "discord",
+    "bot",
+    "dm",
+    "direct-messages",
+    "message-forwarding"
+  ],
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "description": "A Node.js bot that forwards Instagram Direct Messages to Discord channels, preserving media, links, and formatting.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/instagram-dm-discord-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/instagram-dm-discord-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/instagram-dm-discord-bot#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "axios": "^1.8.4",
     "discord.js": "^14.18.0",
@@ -16,5 +36,8 @@
     "instagram-private-api": "^1.46.1",
     "ts-custom-error": "^3.3.1",
     "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
